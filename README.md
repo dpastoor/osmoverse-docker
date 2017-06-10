@@ -53,3 +53,7 @@ docker build -t "metrumresearchgroup/mrgsolve:v0.7.10" .
 ### get information about a container
 
 `docker inspect <container_id>` - returns json with information about the container
+
+### log into running containers and get a shell
+
+`docker exec -it <containerIdOrName> bash`
