@@ -7,4 +7,5 @@ RUN wget https://gist.githubusercontent.com/dpastoor/0bf40c3d0df2ef5bd961dd3acf5
   && chmod +x install_github.r
 
 RUN ./install_github.r dpastoor/phmxversecore 
+RUN ./install_github.r dpastoor/phmxverseutils
     
